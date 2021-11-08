@@ -1,0 +1,28 @@
+pipeline
+{
+  agent any
+  stages
+  {
+    stage('one')
+    {
+      steps
+      {
+        echo 'Step - 1: Hi Shivavardhan - TCS'
+      }
+    }
+    stage ('two')
+    {
+      steps
+      {
+        echo 'Step - 2: Welcome to Jenkins World'
+      }
+    }
+    stage ('three')
+    {
+      steps
+      {
+        echo 'Step - 3: Process Completed'
+      }
+    }
+  }
+}
